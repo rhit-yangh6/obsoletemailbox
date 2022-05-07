@@ -1,22 +1,30 @@
-import logo from './logo.svg';
 import './App.css';
+import Marquee from "react-smooth-marquee";
 
 function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
+        <div className='scroll'>
+          <p className="marquee">
+            <span>I am Here I am Here I am Here I am Here I am Here I am Here I am Here I am Here I am Here I am Here I am Here I am Here I am Here I am Here I am Here </span>
+          </p>
+          <p className="marquee marquee2">
+            <span>I am Here I am Here I am Here I am Here I am Here I am Here I am Here I am Here I am Here I am Here I am Here I am Here I am Here I am Here I am Here </span>
+          </p>
+        </div>
+
+        <div className='img-wrapper'>
+
+        </div>
+        <div className='scroll'>
+          <p className="marquee">
+            <span>I am Here I am Here I am Here I am Here I am Here I am Here I am Here I am Here I am Here I am Here I am Here I am Here I am Here I am Here I am Here </span>
+          </p>
+          <p className="marquee marquee2">
+            <span>I am Here I am Here I am Here I am Here I am Here I am Here I am Here I am Here I am Here I am Here I am Here I am Here I am Here I am Here I am Here </span>
+          </p>
+        </div>
       </header>
     </div>
   );
