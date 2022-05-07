@@ -54,6 +54,38 @@
   display: flex;
   align-items: center;
   height: 70vh;
+  justify-content: center;
+}
+
+.img-mailbox {
+  width: 300px;
+  max-width: 18vw;
+  aspect-ratio: 3/4;
+  margin: 40px;
+}
+
+.card-back, .card-back-qr-code {
+  width: 300px;
+  max-width: 18vw;
+  aspect-ratio: 3/4;
+  margin: 40px;
+  background-color: lightgrey;
+  opacity: 0.5;
+}
+
+.card-back-qr-code {
+  display: flex;
+  align-items: center;
+}
+
+.card-back p {
+  color: black;
+  text-align: left;
+}
+
+.qr-code {
+  width: 100%;
+  aspect-ratio: 1;
 }
 
 @keyframes marquee {
