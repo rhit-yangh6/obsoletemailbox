@@ -12,8 +12,8 @@ import { Modal } from 'antd';
 function App() {
   const [flip3, setFlip3] = useState(false);
 
-  const [modalVisible, setModalVisible] = useState(true);
-  const [modal2Visible, setModal2Visible] = useState(true);
+  const [modalVisible, setModalVisible] = useState(false);
+  const [modal2Visible, setModal2Visible] = useState(false);
 
 
   const showModal = () => {
